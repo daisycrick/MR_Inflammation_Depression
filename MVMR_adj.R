@@ -1,5 +1,5 @@
 rm(list = ls())
-setwd("C:/Users/dc15053/OneDrive - University of Bristol/Documents/PhD/year two/SMFQ and GlycA/two sample") # Set the file path to your local directory
+setwd("C:/") # Set the file path to your local directory
 
 library(metafor)
 library(plyr) 
@@ -54,11 +54,6 @@ if ( colnames(H_data$exposure_beta)[1] != "Exposure1") {
   F.data <- F.data[, c(1:3,5,4,7,6)]
 }
 head(F.data)
-
-
-
-
-
 
 
 ## Step 3: Estimate causal effects
