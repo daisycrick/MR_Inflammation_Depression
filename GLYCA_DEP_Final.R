@@ -1,6 +1,5 @@
 rm(list = ls())
-setwd("C:/Users/dc15053/OneDrive - University of Bristol/Documents/
-      PhD/year two/SMFQ and GlycA/two sample") # Set the file path to your local directory
+setwd("C:") # Set the file path to your local directory
 
 install.packages("remotes")
 library(devtools)
@@ -188,7 +187,7 @@ res_loo %>%
   theme_classic() 
 
 #Radial MR
-#???
+
 jointdataset <- jointdataset[ , c ('SNP', 'exposure.x' , 'outcome', 'pos.exposure', 'chr.exposure', 
                                    'effect_allele.exposure', 'other_allele.exposure' , 'eaf.exposure' , 'b', 'se', 'p')]
 
@@ -216,11 +215,6 @@ dat2_3 <- subset(dat2_2, mr_keep == "TRUE")
 dat2_3 <- dat2_3 %>% rename (mr_keep = mr_keep.x)
 dat2_3 <- dat2_3[-c(mr_keep.y)]
 dat2 <- dat2_3
-
-
-
-
-
 
 
 # Check data
