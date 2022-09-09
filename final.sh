@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --job-name=PhenoSpD
-#SBATCH --output=/user/home/dc15053/shell_logs/PhenoSpD.o
-#SBATCH --error=/user/home/dc15053/shell_logs/PhenoSpD.e
+#SBATCH --output=//PhenoSpD.o
+#SBATCH --error=/PhenoSpD.e
 #SBATCH --partition=mrcieu
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -12,8 +12,8 @@
 
 
 # PhenoSpD
-# mkdir /user/home/dc15053/PhenoSPD
-#MYDIR="/user/home/dc15053/PhenoSPD
+# mkdir /
+#MYDIR="/"
 #cd $MYDIR
 
 # In order to download PhenoSpD, you should clone this repository via the command
