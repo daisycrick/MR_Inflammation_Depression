@@ -1,5 +1,5 @@
 rm(list = ls())
-setwd("C:/Users/dc15053/OneDrive - University of Bristol/Documents/PhD/year two/SMFQ and GlycA/two sample") # Set the file path to your local directory
+setwd("C:/") # Set the file path to your local directory
 
 library(devtools)
 #devtools::install_github("MRCIEU/TwoSampleMR")
