@@ -10,7 +10,7 @@
 
 # PhenoSpD
 # mkdir /user/home/dc15053/PhenoSPD
-MYDIR="/user/home/dc15053/PhenoSPD
+MYDIR=""
 cd $MYDIR
 
 # In order to download PhenoSpD, you should clone this repository via the command
