@@ -36,5 +36,5 @@ glimpse(full_BMI)
      outcome_dat = full_depression
 )
 
-write.table(dat,"/user/home/dc15053/PhenoSPD/test.dat.txt",sep=" ",row.names=FALSE)
+write.table(dat,"/",sep=" ",row.names=FALSE)
 
