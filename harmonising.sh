@@ -6,10 +6,10 @@
 #SBATCH --time=100:00:00
 #SBATCH --mem=100000M
 
-WORK_DIR="/mnt/storage/home/dc15053/PhenoSPD"
+WORK_DIR="/"
 
 
 cd $WORK_DIR
 
 
-R CMD BATCH /mnt/storage/home/dc15053/PhenoSPD/harmonising_BMI_MDD.R
+R CMD BATCH //harmonising_BMI_MDD.R
