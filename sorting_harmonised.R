@@ -1,5 +1,5 @@
 rm(list = ls())
-setwd("/mnt/storage/home/dc15053/PhenoSPD")
+setwd("")
 
 library(readr)
 library(vroom)
@@ -37,7 +37,7 @@ nrow(MDD_BMI_2)
 MDD_BMI_3=rbind(MDD_BMI_2, MDD_BMI_dups)
 nrow(MDD_BMI_3)
 
-write.table(dat,"/user/home/dc15053/PhenoSPD/MDD_BMI.txt",sep=" ",row.names=FALSE, quote=FALSE)
+write.table(dat,"MDD_BMI.txt",sep=" ",row.names=FALSE, quote=FALSE)
 
 
 
