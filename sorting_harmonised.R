@@ -20,7 +20,7 @@ MDD_BMI <- rename(MDD_BMI, c(" " = "SNP", "allele_0" ="other_allele.exposure", "
 "trait1_se" = "se.exposure", "trait2_b" = "beta.outcome",  "trait2_se" = "se.outcome"))
 
 
-write.table(MDD_BMI,"/user/home/dc15053/PhenoSPD/MDD_BMI.txt",sep=" ",row.names=FALSE, quotes=F)
+write.table(MDD_BMI,"/MDD_BMI.txt",sep=" ",row.names=FALSE, quotes=F)
 
 MDD_BMI <- read.table("MDD_BMI.txt", header=T, sep=" ")
 duplicates <- read.table("duplicate_SNPs.txt", header=F, sep=" ")
