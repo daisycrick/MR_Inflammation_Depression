@@ -2,7 +2,7 @@
 #Depression on GlycA#
 ###########################################
 rm(list = ls())
-setwd("C:/Users/dc15053/OneDrive - University of Bristol/Documents/PhD/year two/SMFQ and GlycA/two sample/Depression_GlycA_Small") # Set the file path to your local directory
+setwd("C:/") # Set the file path to your local directory
 
 library(devtools)
 #devtools::install_github("MRCIEU/TwoSampleMR")
@@ -34,7 +34,7 @@ dim(dat)
 
 mr_report(
   dat,
-  output_path = "C:/Users/dc15053/OneDrive - University of Bristol/Documents/PhD/year two/SMFQ and GlycA/two sample/Depression_GlycA_Small",
+  output_path = "C:/",
   output_type = "html",
   author = "Analyst",
   study = "Two Sample MR",
